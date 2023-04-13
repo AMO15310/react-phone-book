@@ -12,43 +12,42 @@ Clone the repository
 
 ```
 git clone https://github.com/AMO15310/react-phone-book.git
-
+```
 
 Navigate to the project directory
 
 ```
-
 cd react-phone-book
 
 ```
+
 Install dependencies
 
 ```
-
 npm install
 
 ```
+
 or
-```
 
+```
 yarn install
-
 ```
+
 Create a .env file based on the .env.example file and set the environment variables
 
 Start the server
 
 ```
-
 npm start
-
 ```
+
 or
-```
 
+```
 yarn start
-
 ```
+
 The server should now be running on http://localhost:5000.
 
 <h3>API Endpoints</h3>
@@ -72,5 +71,3 @@ Node.js
 Express.js
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-```
