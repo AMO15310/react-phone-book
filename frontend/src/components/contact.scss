@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  background-color: lightgray;
+  .top {
+    height: 10vh;
+    width: 100%;
+    background-color: teal;
+  }
+  .center {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    overflow-y: scroll;
+    .phone-booth {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 1rem;
+      width: 80%;
+      margin-top: 10rem;
+      .bdg {
+        height: 50px;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+      }
+    }
+    .spinner {
+      margin-top: 2rem;
+      color: blue;
+    }
+    .components {
+      border-radius: 5px;
+      height: 80%;
+      width: 100%;
+      position: relative;
+      .cont {
+        // display: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      .cards {
+        text-align: center;
+        .icon {
+          cursor: pointer;
+          font-size: x-large;
+          color: green;
+          position: absolute;
+          margin-bottom: 2rem;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}

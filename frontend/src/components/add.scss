@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.myForm {
+  width: 40%;
+  display: flex;
+  height: 90vh;
+  padding: 5rem;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  background-color: teal;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+.butn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: flex;
+  margin-top: 1rem;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 255, 0.61);
+  color: white;
+}

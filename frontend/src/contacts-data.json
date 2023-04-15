@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "John",
+      "fullName": "John Doe",
+      "email": "john.doe@example.com",
+      "phoneNumber": "123-456-7891"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "fullName": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phoneNumber": "987-654-3210"
+    },
+    {
+      "id": 3,
+      "name": "Alice",
+      "fullName": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phoneNumber": "456-789-0123"
+    }
+  ]
+}

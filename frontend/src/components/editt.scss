@@ -1,0 +1,36 @@
+.content-edit {
+  display: flex;
+  .containers {
+    padding-top: 3rem;
+    width: 100%;
+    height: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    .email {
+      margin-left: 2rem;
+    }
+    .contact {
+      margin-left: 1.5rem;
+    }
+    input {
+      margin-left: 2rem;
+      border-radius: 3px;
+      border: 1px solid teal;
+      padding: 0.3rem;
+      text-indent: 5%;
+    }
+    button {
+      font-weight: 700;
+      width: 5rem;
+      height: 3rem;
+    }
+    .save {
+      width: 7rem;
+    }
+    .back {
+      width: 4rem;
+    }
+  }
+}
